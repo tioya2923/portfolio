@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>João Baptista Dumba · Engenheiro informático</title>
+  <meta name="description" content="Portfólio de João Baptista Dumba, engenheiro informático em Lisboa: aplicações full-stack (React Native, React, C#, PHP, Node) e redes (CCNA).">
+  <meta name="author" content="João Baptista Dumba">
+  <meta name="theme-color" content="#f6f4ee" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#10151a" media="(prefers-color-scheme: dark)">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="João Baptista Dumba · Engenheiro informático">
+  <meta property="og:description" content="Aplicações full-stack e redes. Lisboa.">
+  <meta property="og:locale" content="pt_PT">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Saltar para o conteúdo</a>
+
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#topo" aria-label="Início">
+        <span class="brand-mark" aria-hidden="true">JD</span>
+        <span class="brand-name">João Dumba</span>
+      </a>
+      <nav aria-label="Secções">
+        <ul class="nav">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#redes">Redes</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#competencias">Competências</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="topo">
+      <div class="wrap">
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span>Lisboa, Portugal</p>
+        <h1>João Baptista Dumba</h1>
+        <p class="lead">Engenheiro informático. Desenvolvo aplicações full-stack, do ecrã do telemóvel à base de dados, e trabalho em redes e segurança.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+          <a class="btn" href="https://github.com/tioya2923" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/jo%C3%A3o-baptitsa-628255205" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+        <dl class="facts">
+          <div><dt>Formação</dt><dd>Licenciatura em Engenharia Informática, 2025</dd></div>
+          <div><dt>Em curso</dt><dd>Mestrado em Eng. Informática e de Telecomunicações</dd></div>
+          <div><dt>Redes</dt><dd>CCNA, três módulos concluídos</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="wrap split">
+        <h2>Sobre mim</h2>
+        <div class="prose">
+          <p>Licenciado em Engenharia Informática pela Universidade Autónoma de Lisboa (2025) e a frequentar o Mestrado em Engenharia Informática e de Telecomunicações. Tenho o CCNA concluído nos três módulos.</p>
+          <p>Desenvolvo aplicações completas, do ecrã do telemóvel à base de dados: apps móveis em React Native, sites em React, APIs em C#, PHP e Node, e a publicação em testes fechados no Google Play e no TestFlight da Apple. Gosto também da parte de redes e segurança, que pratico em laboratório.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="wrap">
+        <h2>Projetos</h2>
+
+        <div class="projects">
+          <article class="project project-featured">
+            <header>
+              <h3>Ndatava</h3>
+              <span class="badge">Testes fechados · Android e iOS</span>
+            </header>
+            <p class="summary">Aplicação móvel comunitária com conteúdos em várias línguas, uma API própria e um site web.</p>
+            <ul class="points">
+              <li>Cânticos, catecismo, calendário, grupos, partilhas, programas e pesquisa, em português, latim, umbundu e kimbundu.</li>
+              <li>Loja com produtos, lojas e encomendas, lembretes e área de administração.</li>
+              <li>Autenticação com JWT, migrações de base de dados e contentor Docker na API.</li>
+              <li>Compilações iOS 1.1.0 em TestFlight e testes fechados no Google Play.</li>
+            </ul>
+            <ul class="tags" aria-label="Tecnologias">
+              <li>React Native</li><li>Expo</li><li>TypeScript</li><li>C# .NET</li><li>React</li><li>Vite</li><li>Docker</li>
+            </ul>
+            <ul class="repos" aria-label="Código">
+              <li><a href="https://github.com/tioya2923/missaomobile" target="_blank" rel="noopener">missaomobile</a><span>app móvel</span></li>
+              <li><a href="https://github.com/tioya2923/BackendMissaoHuambo" target="_blank" rel="noopener">BackendMissaoHuambo</a><span>API</span></li>
+              <li><a href="https://github.com/tioya2923/FrontendMissao" target="_blank" rel="noopener">FrontendMissao</a><span>site</span></li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <header>
+              <h3>SN Refeições</h3>
+              <span class="badge">Testes fechados · Android</span>
+            </header>
+            <p class="summary">Aplicação web instalável (PWA) com backend próprio e envio automático de lembretes.</p>
+            <ul class="points">
+              <li>Frontend em React com service worker (PWA) e integração com a API por CORS.</li>
+              <li>Backend em PHP com tarefa agendada que envia lembretes, protegida por segredo.</li>
+              <li>Publicação automática com GitHub Actions e contentor Docker.</li>
+            </ul>
+            <ul class="tags" aria-label="Tecnologias">
+              <li>React</li><li>PHP</li><li>PWA</li><li>Docker</li><li>GitHub Actions</li>
+            </ul>
+            <ul class="repos" aria-label="Código">
+              <li><a href="https://github.com/tioya2923/frontendsnretratos" target="_blank" rel="noopener">frontendsnretratos</a><span>frontend</span></li>
+              <li><a href="https://github.com/tioya2923/backendsnretratos" target="_blank" rel="noopener">backendsnretratos</a><span>backend</span></li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <header>
+              <h3>Ponte, Europa e Angola</h3>
+              <span class="badge">Testes fechados · Android</span>
+            </header>
+            <p class="summary">Marketplace bidirecional entre a Europa e Angola, para moda, cosméticos, eletrónica e material académico. Fase 1 (MVP).</p>
+            <ul class="tags" aria-label="Tecnologias">
+              <li>TypeScript</li>
+            </ul>
+            <p class="private">Repositório privado. Código disponível a pedido.</p>
+          </article>
+
+          <article class="project">
+            <header>
+              <h3>AngroLink</h3>
+            </header>
+            <p class="summary">Marketplace angolano para compra e venda de produtos e serviços, com perfis de cliente, vendedor, parceiro de entregas e administrador.</p>
+            <ul class="points">
+              <li>Aprovação de vendedores e parceiros com análise de documentos.</li>
+              <li>Regras de segurança e migrações no Supabase; testes automáticos e documentação do plano do produto.</li>
+            </ul>
+            <ul class="tags" aria-label="Tecnologias">
+              <li>React</li><li>TypeScript</li><li>Tailwind</li><li>Supabase</li><li>Playwright</li>
+            </ul>
+            <ul class="repos" aria-label="Código">
+              <li><a href="https://github.com/tioya2923/angrolink" target="_blank" rel="noopener">angrolink</a></li>
+            </ul>
+          </article>
+
+          <article class="project">
+            <header>
+              <h3>SGS App</h3>
+            </header>
+            <p class="summary">Aplicação web de gestão de operações sociais: painel, alertas, banco de alimentos e de roupas, residências e cartões.</p>
+            <ul class="points">
+              <li>API própria com login real e permissões aplicadas no servidor.</li>
+              <li>Docker Compose e configuração de publicação.</li>
+            </ul>
+            <ul class="tags" aria-label="Tecnologias">
+              <li>React 19</li><li>TypeScript</li><li>Fastify</li><li>PostgreSQL</li><li>Prisma</li><li>Docker</li>
+            </ul>
+            <ul class="repos" aria-label="Código">
+              <li><a href="https://github.com/tioya2923/sgs-app" target="_blank" rel="noopener">sgs-app</a></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="redes" class="section">
+      <div class="wrap">
+        <h2>Redes e segurança</h2>
+        <div class="two">
+          <div>
+            <h3 class="sub">Certificações Cisco (CCNA)</h3>
+            <ol class="timeline">
+              <li><time datetime="2026-01">jan. 2026</time><span>Introduction to Networks</span></li>
+              <li><time datetime="2026-05">mai. 2026</time><span>Switching, Routing &amp; Wireless Essentials</span></li>
+              <li><time datetime="2026-08">ago. 2026</time><span>Enterprise Networking, Security, and Automation</span></li>
+            </ol>
+          </div>
+          <div>
+            <h3 class="sub">Laboratório</h3>
+            <ul class="lab">
+              <li>VLANs, trunks e routing entre VLANs</li>
+              <li>OSPF, NAT, DHCP e DNS</li>
+              <li>ACLs, segurança de portas e VPN</li>
+              <li>STP e EtherChannel</li>
+              <li>Windows Server (Active Directory) e Linux em máquinas virtuais</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="formacao" class="section">
+      <div class="wrap">
+        <h2>Formação</h2>
+        <div class="education">
+          <article>
+            <p class="when">2.º ano, em curso</p>
+            <div>
+              <h3>Mestrado em Engenharia Informática e de Telecomunicações</h3>
+              <p class="where">Universidade Autónoma de Lisboa</p>
+              <ul class="courses">
+                <li>Segurança Avançada em Sistemas de Rede</li>
+                <li>Cloud Computing</li>
+                <li>Tecnologias de Redes de Comunicações Móveis</li>
+                <li>Métodos de Trabalho Científico em Engenharia</li>
+                <li>Seminário de Telecomunicações em Temas de Dissertação</li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <p class="when">Concluída em 2025</p>
+            <div>
+              <h3>Licenciatura em Engenharia Informática</h3>
+              <p class="where">Universidade Autónoma de Lisboa</p>
+            </div>
+          </article>
+          <article>
+            <p class="when">fev. 2022 a nov. 2023</p>
+            <div>
+              <h3>Front-End Web Developer Specialist</h3>
+              <p class="where">FLAG / Galileu</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="competencias" class="section">
+      <div class="wrap split">
+        <h2>Competências</h2>
+        <div>
+          <ul class="tags tags-lg">
+            <li>TypeScript</li><li>JavaScript</li><li>React</li><li>React Native</li><li>Node.js</li><li>C#</li><li>PHP</li><li>Java</li><li>Python</li><li>SQL</li><li>PostgreSQL</li><li>Git</li><li>Docker</li><li>Linux</li><li>Windows Server</li><li>Cisco</li><li>Supabase</li>
+          </ul>
+          <p class="langs"><strong>Línguas:</strong> português (nativo), inglês e espanhol (B2), francês (A1).</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section section-contact">
+      <div class="wrap">
+        <h2>Contacto</h2>
+        <dl class="contact">
+          <div><dt>Email</dt><dd><a href="mailto:mwenhondumba@gmail.com">mwenhondumba@gmail.com</a></dd></div>
+          <div><dt>Telefone</dt><dd><a href="tel:+351920124925">+351 920 124 925</a></dd></div>
+          <div><dt>GitHub</dt><dd><a href="https://github.com/tioya2923" target="_blank" rel="noopener">github.com/tioya2923</a></dd></div>
+          <div><dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/jo%C3%A3o-baptitsa-628255205" target="_blank" rel="noopener">linkedin.com/in/joão-baptitsa-628255205</a></dd></div>
+        </dl>
+        <p class="note">Aplicações em testes fechados no Google Play e no TestFlight. Os repositórios privados estão disponíveis a pedido.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <p>© 2026 João Baptista Dumba</p>
+      <a href="#topo">Voltar ao topo</a>
+    </div>
+  </footer>
+</body>
+</html>
