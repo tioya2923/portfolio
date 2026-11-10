@@ -77,6 +77,12 @@ a:focus-visible, .btn:focus-visible { outline: 2px solid var(--accent); outline-
 
 /* Abertura */
 .hero { padding: clamp(3.5rem, 9vw, 7rem) 0 clamp(2.5rem, 6vw, 4.5rem); }
+.hero-top { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: clamp(1.5rem, 5vw, 4rem); }
+.portrait {
+  width: clamp(180px, 24vw, 280px); height: auto; aspect-ratio: 1; object-fit: cover;
+  border-radius: 28px; border: 1px solid var(--line);
+  box-shadow: 14px 14px 0 var(--accent-soft);
+}
 .eyebrow {
   display: inline-flex; align-items: center; gap: .55rem;
   font-family: var(--mono); font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; color: var(--muted);
@@ -186,6 +192,8 @@ a:focus-visible, .btn:focus-visible { outline: 2px solid var(--accent); outline-
 
 @media (max-width: 760px) {
   .brand-name { display: none; }
+  .hero-top { grid-template-columns: minmax(0, 1fr); }
+  .portrait { order: -1; width: 132px; border-radius: 22px; box-shadow: 8px 8px 0 var(--accent-soft); }
   .split, .two, .projects, .contact, .education article { grid-template-columns: minmax(0, 1fr); }
   .split, .education article { gap: .5rem; }
   .split h2 { margin-bottom: 1rem; }
